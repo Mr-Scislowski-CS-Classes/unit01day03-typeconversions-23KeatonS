@@ -12,8 +12,10 @@ class DoubleOps {
         double radicand = Double.parseDouble(args[0]);
         double root = Math.sqrt(radicand);
         System.out.println("The square root of "+ radicand +" is "+ root);
-        
 
-
+        double num1 = Double.parseDouble(args[0]);
+        double randnum = Math.random();
+        double finalnum = randnum*num1;
+        System.out.println("A random number between 0 and "+args[0]+" is "+finalnum);
     }
 }
